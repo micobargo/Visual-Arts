@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/*Navigation*/
+
+nav {
+	margin: 0 1%;
+    padding: 1% 5%;
+}
+
+nav > div {
+	display: inline-block;
+}
+
+nav > div > a {
+	text-decoration: none;
+	color: #464646;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav > div:last-child {
+	float: right;
+}
+
+nav > div > input {
+	border: none;
+}
+
+nav > div > input:placeholder-shown {
+	color: #000;
+}
+
+/*Header*/
+
+header {
+	text-align: center;
+}
+
+header img {
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+}
+
+header p {
+	color: #464646;
+	padding: 10px;
+	margin: 20px;
+}
+
+/*Title*/
+
+section h1 {
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	color: #242424;
+	margin: 1% 0;
+}
+
+section h3 {
+	font-size: 20px;
+	color:#5f5f5f;
+	font-weight: normal;
+	margin: 5% 0 3%;
+	text-align: center;
+}
+
+hr {
+	border: 1px solid #c79852;
+	width: 7%;
+	margin: auto;
+}
+
+/*Article*/
+
+article {
+	text-align: center;
+}
+
+article p {
+	text-align: left;
+	color: #5F5F5F;
+	font-size: 16px;
+	line-height: 200%;
+	padding: 0 15%;
+	margin: 3% 8%;
+}
+
+article .personal-quote {
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	padding: 0 17%;
+	margin: 0 10%;
+}
+
+article .personal-quote span {
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #565656;
+}
+
+div.img-wrap {
+	height: 450px;
+}
+
+div.img-wrap img {
+	float: left;
+}
+
+div.img-wrap img:first-child {
+	margin-left: 17%;
+}
+
+div.img-wrap img:nth-child(n+2) {
+	margin-left: 7px;
+}
+
+div.img-wrap img:last-child {
+	margin-top: 7px;
+}
+
+/*Footer One*/
+
+footer {
+	text-align: center;
+	color: #565656;
+}
+
+footer .fa-heart {
+	color: #E04F4A;
+	padding: 40px 5px;
+}
+
+form textarea {
+	width: 60%;
+	padding: 5px;
+	border-color: #e5e5e5;
+}
+
+footer .button-group {
+	text-align: left;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+
+footer .button-group button {
+	border: none;
+    background: white;
+    font-size: 12px;
+    padding: 0 5px 0 0;
+    color: #565656;
+}
+footer .button-group button:last-child{
+	float: right;
+	padding: 0;
+	margin-right: 25%;
+}
+
+footer .button-group button:hover {
+	cursor: pointer;
+	color: #5e5e5e;
+	transition: 0.3s all ease-in-out;
+}
+
+/*Footer 2*/
+
+.blogs {
+	height: 200px;
+	position: relative;
+	background: #F8F9FD;
+	padding: 0 20%;
+}
+
+.previous-article,
+.next-article {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+}
+
+.previous-article {
+	position: absolute;
+	left: 20%;
+}
+.previous-button {
+	text-align: left;
+}
+
+.next-article {
+	position: absolute;
+	right: 20%;
+}
+
+.next-button {
+	text-align: right;
+}
+
+.previous-button,
+.next-button {
+	margin: 10% 0;
+}
+
+.previous-button a,
+.next-button a {
+	margin: 3% 0;
+	color: #434345;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.previous-button p,
+.next-button p {
+	margin: 3% 0;
+	font-weight: normal;
+}
